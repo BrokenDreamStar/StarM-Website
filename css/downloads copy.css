@@ -1,0 +1,235 @@
+.bulletin {
+    position: relative;
+    height: 23px;
+    width: 1220px;
+    margin: 0 auto;
+    font-size: 8px;
+    text-align: center;
+    color: #fff;
+    background-color: red;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0px;
+    right: 3px;
+    font-size: 20px;
+}
+
+.close-btn::after {
+    content: '\e90c';
+    font-family: 'icomoon';
+}
+
+.downloads-text {
+    width: 245px;
+    height: 60px;
+    margin: 10px auto;
+
+}
+
+.downloads-text img {
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+
+.downloads-text h1 {
+    float: left;
+    line-height: 60px;
+}
+
+.downloads-client-box {
+    overflow: hidden;
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.downloads-client-introduce {
+    float: left;
+    width: 230px;
+    height: 415px;
+    border: 3px solid #b7e2f8;
+    border-radius: 15px;
+}
+
+.downloads-client-introduce ul li {
+    width: 230px;
+    height: 50px;
+    margin-top: 2px;
+}
+
+.downloads-client-introduce ul li div {
+    float: left;
+    margin-left: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+.downloads-client-introduce ul li span {
+    float: left;
+    width: 170px;
+    height: 50px;
+}
+
+.downloads-client-introduce ul li div img {
+    width: 50px;
+    height: 50px;
+}
+
+.downloads-client-introduce ul li span h1 {
+    font-size: 15.5px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.downloads-client-introduce ul li .two {
+    position: relative;
+}
+
+.downloads-client-introduce ul li .two h1 {
+    line-height: 20px;
+    position: absolute;
+    top: 5px;
+}
+
+.downloads-client-introduce ul li p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.downloads-client {
+    float: right;
+    width: 965px;
+}
+
+.downloads-client ul li {
+    display: block;
+    width: 230px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 3px solid #b7e2f8;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.downloads-client .last {
+    margin-right: 0;
+}
+
+.downloads-client ul li img {
+    margin-top: 5px;
+    width: 70px;
+    height: 70px;
+}
+
+.downloads-client ul li a {
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    background-color: #30c1ff;
+    border-radius: 7px;
+    line-height: 24px;
+    transition: all 0.3s;
+}
+
+.downloads-client ul li a:hover {
+    background-color: red;
+}
+
+.downloads-client ul li p {
+    margin-bottom: 15px;
+}
+
+.downloads-client .trc-client img {
+    width: 50px;
+    height: 50px;
+}
+
+.resourcepacks-text {
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+.resourcepacks-box {
+    overflow: hidden;
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.resourcepacks-box ul li {
+    display: block;
+    width: 230px;
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 3px solid #98ecac;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.resourcepacks-box .last {
+    margin-right: 0;
+}
+
+/* 敬请期待 */
+.resourcepacks-box .last h1 {
+    line-height: 100px;
+    font-weight: 400;
+}
+
+.resourcepacks-box ul li div {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.resourcepacks-box ul li span {
+    float: left;
+    width: 155px;
+    height: 60px;
+    margin-top: 5px;
+}
+
+.resourcepacks-box ul li div img {
+    width: 60px;
+    height: 60px;
+}
+
+.resourcepacks-box ul li span h1 {
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.resourcepacks-box ul li .two {
+    position: relative;
+}
+
+.resourcepacks-box ul li .two h1 {
+    line-height: 26px;
+    position: absolute;
+    top: 4px;
+}
+
+.resourcepacks-box ul li a {
+    display: inline-block;
+    margin-top: 16px;
+    width: 100px;
+    height: 25px;
+    color: #fff;
+    background-color: #16ce5d;
+    border-radius: 7px;
+    line-height: 24px;
+    transition: all 0.3s;
+}
+
+.resourcepacks-box ul li a:hover {
+    background-color: red;
+}
